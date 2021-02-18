@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMZunpaekKA92upTEU0ReyfI36xkYpjas&map_ids=f88789afa85eec55&callback=initMap"></script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
+    <title>Snyder Recordings</title>
+  </head>
+  <body>
+    <div class="page-container">
+      <!-- Navigation -->
+      <div class="navigation-container">
+        <div class="container">
+          <div class="navigation-wrapper">
+            <div class="nav-logo">
+              <img
+                src="/images/logos/SRrecordings.png"
+                alt="Snyder Recordings"
+              />
+            </div>
+
+            <div class="nav-link-container">
+              <ul>
+                <li>
+                  <a href="#">
+                    <img src="/images/svg/Home.svg" alt="Home" />
+                    Home
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    <img src="/images/svg/Records.svg" alt="Records" />
+                    Records
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    <img src="/images/svg/Music.svg" alt="Music" />
+                    Music
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    <img src="/images/svg/Artists.svg" alt="Artists" />
+                    Artists
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    <img src="/images/svg/Concerts.svg" alt="Concerts" />
+                    Concerts
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="button"> Sign Up </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile-Nav -->
+      <div class="navigation-container-mobile">
+        <div class="container">
+          <div class="navigation-wrapper mobile">
+            <div class="nav-left">
+              <div class="menu-button">
+                <svg viewBox="0 0 100 80" width="40" height="40">
+                  <rect width="100" height="8" rx="8"></rect>
+                  <rect y="30" width="100" height="8" rx="8"></rect>
+                  <rect y="60" width="100" height="8" rx="8"></rect>
+                </svg>
+              </div>
+
+              <div class="nav-logo">
+                <img
+                  src="/images/logos/SRrecordings.png"
+                  alt="Snyder Recordings"
+                />
+              </div>
+            </div>
+
+            <div class="nav-right">
+              <a href="#" class="button"> Sign Up </a>
+            </div>
+
+            <div class="nav-link-container">
+              <ul>
+                <li>
+                  <a href="#" class="close-menu">
+                    <img src="/images/icons/Menu_X.png" alt="Close Menu" />
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    <img src="/images/svg/Home.svg" alt="Home" />
+                    Home
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    <img src="/images/svg/Records.svg" alt="Records" />
+                    Records
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    <img src="/images/svg/Music.svg" alt="Music" />
+                    Music
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    <img src="/images/svg/Artists.svg" alt="Artists" />
+                    Artists
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#">
+                    <img src="/images/svg/Concerts.svg" alt="Concerts" />
+                    Concerts
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero -->
+      <div class="hero-container">
+        <div class="container">
+          <div class="hero-content">
+            <p class="hero-title">A.M. Paradox</p>
+
+            <p class="text">
+              Christopher Brent Wood, better known by his stage name Brent
+              Faiyaz, is an Amereican singer and record producer. He released
+              his debut project, an extended play entitled A.M. Paradox, in
+              2016.
+            </p>
+
+            <a href="#" class="watch-video">
+              <img src="/images/icons/Play_button.png" alt="Play Button" />
+              Watch Video
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Artist Callout -->
+      <div class="artist-callout-container">
+        <div class="container">
+          <div class="artist-callout">
+            <div class="artist-image">
+              <img src="/images/assets/image2.png" alt="Brent Faiyaz" />
+            </div>
+
+            <div class="artist-callout-content">
+              <p class="title">
+                Brent Faiyaz, So
+                <br />
+                Far Gone
+              </p>
+
+              <p class="text">
+                Faiyaz began uploading his music onto SoundCloud in 2014 and
+                moved from his hometown Columbia, Maryland to Charlotte, North
+                Carolina before ultimately settling in Los Angeles, California
+                to further his music career. On January 19th, 2015, he released
+                his debut single "Allure". [4] On June 1, 2016, Faiyaz released
+                "Invite Me", the lead single from his upcoming debut EP. On
+                September 19, 2016, his 21st birthday, the EP entitled A.M.
+                Paradox was released and recieved with positive reviews from
+                music critics. On January 26, 2017, Sonder released their debut
+                EP Into.
+              </p>
+
+              <a href="#" class="button"> Learn More </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- New Releases -->
+      <div class="new-releases-container">
+        <div class="container">
+          <div class="new-releases-callout-wrapper">
+            <div class="new-releases-callout">
+              <p class="title">New Releases</p>
+
+              <p class="text">
+                New albums every single month, check out the newest & best from
+                Snyder Recording Artist, now available on Apple Music & Spotify.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-container">
+          <div class="carousel">
+            <!-- Filled from Javascript Array -->
+          </div>
+
+          <div class="carousel-arrows-container">
+            <div class="container">
+              <div class="carousel-arrows">
+                <button class="prev">
+                  <img src="/images/icons/left_controller.png" alt="Previous" />
+                </button>
+
+                <button class="next">
+                  <img src="/images/icons/right_controller.png" alt="Next" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Google Map Container -->
+      <div id="map"></div>
+
+      <!-- Contact Container -->
+      <div class="contact-container">
+        <div class="container">
+          <div class="contact-wrapper">
+            <div class="contact">
+              <div class="contact-callout">
+                <p class="title">Get In Touch</p>
+                <p class="text">
+                  New albums every single month, check out the newest & best
+                  from Snyder Recording Artist, now available on Apple Music &
+                  Spotify.
+                </p>
+              </div>
+
+              <div class="form-duo">
+                <input
+                  type="text"
+                  class="form-input"
+                  id="name"
+                  placeholder="First Name"
+                />
+
+                <input
+                  type="text"
+                  class="form-input"
+                  id="name"
+                  placeholder="Last Name"
+                />
+              </div>
+
+              <div class="form-duo">
+                <input
+                  type="text"
+                  class="form-input"
+                  id="email"
+                  placeholder="Email Address"
+                />
+
+                <select name="form-input">
+                  <option value="volvo">Reason For Contacting</option>
+                  <option value="optionA">Option 1</option>
+                  <option value="optionB">Option 2</option>
+                  <option value="optionC">Option 3</option>
+                </select>
+              </div>
+
+              <div class="form-full">
+                <textarea
+                  style="resize: none"
+                  name="Text1"
+                  cols="40"
+                  rows="8"
+                  placeholder="Write a brief message..."
+                ></textarea>
+              </div>
+              <a href="#" type="submit" class="button"> Send Message </a>
+            </div>
+
+            <div class="contact-image">
+              <img src="/images/assets/image3.png" alt="Contact Image" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-container">
+        <div class="container">
+          <div class="footer">
+            <div class="footer-content">
+              <div class="footer-col top-content">
+                <div class="company-logo">
+                  <img
+                    src="/images/logos/SRrecordings_white.png"
+                    alt="Synder Records"
+                  />
+                </div>
+
+                <div class="footer-text-container">
+                  <p class="footer-text">8521 W Fairfax Rd</p>
+
+                  <p class="footer-text">Los Angeles, CA</p>
+
+                  <p class="footer-text">90210</p>
+
+                  <p class="footer-text">909.505.4302</p>
+                </div>
+              </div>
+
+              <div class="footer-col">
+                <div class="footer-title">
+                  <p class="footer-title-text">Explore</p>
+                </div>
+                <div class="footer-text-container">
+                  <a href="#" class="footer-text">About Us</a>
+
+                  <a href="#" class="footer-text">Our Story</a>
+
+                  <a href="#" class="footer-text">Team</a>
+
+                  <a href="#" class="footer-text">Careers</a>
+
+                  <a href="#" class="footer-text">FAQ</a>
+                </div>
+              </div>
+
+              <div class="footer-col">
+                <div class="footer-title">
+                  <p class="footer-title-text">Music</p>
+                </div>
+                <div class="footer-text-container">
+                  <a href="#" class="footer-text">Missing Out</a>
+
+                  <a href="#" class="footer-text">Trapsoul</a>
+
+                  <a href="#" class="footer-text">Sonder Sons</a>
+
+                  <a href="#" class="footer-text">Paradise Today</a>
+
+                  <a href="#" class="footer-text">Needed</a>
+                </div>
+              </div>
+
+              <div class="footer-col">
+                <div class="footer-title">
+                  <p class="footer-title-text">Artists</p>
+                </div>
+                <div class="footer-text-container">
+                  <a href="#" class="footer-text">Brent Faiyaz</a>
+
+                  <a href="#" class="footer-text">Drake</a>
+
+                  <a href="#" class="footer-text">Bryson Tiller</a>
+
+                  <a href="#" class="footer-text">Young Ford</a>
+
+                  <a href="#" class="footer-text">Rory Fresco</a>
+                </div>
+              </div>
+
+              <div class="footer-col">
+                <div class="footer-title">
+                  <p class="footer-title-text">Records</p>
+                </div>
+                <div class="footer-text-container">
+                  <a href="#" class="footer-text">What a Time</a>
+
+                  <a href="#" class="footer-text">Coming Home</a>
+
+                  <a href="#" class="footer-text">Always First</a>
+
+                  <a href="#" class="footer-text">So Far Gone</a>
+
+                  <a href="#" class="footer-text">Big Bluez</a>
+                </div>
+              </div>
+
+              <div class="footer-col">
+                <div class="footer-title">
+                  <p class="footer-title-text">Concerts</p>
+                </div>
+                <div class="footer-text-container">
+                  <a href="#" class="footer-text">Midland Live</a>
+
+                  <a href="#" class="footer-text">Granada 2018</a>
+
+                  <a href="#" class="footer-text">Tiller Unplugged</a>
+
+                  <a href="#" class="footer-text">Love Live</a>
+
+                  <a href="#" class="footer-text">XX Live Mix</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer-terms">
+              <div class="privacy">
+                <a href="#" class="footer-title-text">Privacy Policy</a>
+
+                <a href="#" class="footer-title-text">Terms & Conditions</a>
+              </div>
+
+              <div class="icon-container">
+                <a href="#" class="social-icon">
+                  <img src="/images/icons/Youtube.png" alt="Youtube" />
+                </a>
+
+                <a href="#" class="social-icon">
+                  <img src="/images/icons/Twitter.png" alt="Twitter" />
+                </a>
+
+                <a href="#" class="social-icon">
+                  <img src="/images/icons/Instagram.png" alt="Instagram" />
+                </a>
+
+                <a href="#" class="social-icon">
+                  <img src="/images/icons/Snapchaat.png" alt="Snapchat" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Page Container -->
+    </div>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
