@@ -193,4 +193,23 @@ $(document).ready(function () {
   closeMenu.onclick = function () {
     menu.style.left = "-100%";
   };
+
+  // Sticky Nav
+  window.onscroll = function () {
+    stickyNav();
+  };
+
+  let navbar = document.getElementById("navbar");
+  let sticky = navbar.offsetTop;
+  let heroMargin = document.getElementsByClassName("hero-container");
+
+  function stickyNav() {
+    if (window.pageYOffset >= sticky) {
+      navbar.classList.add("sticky");
+      heroMargin.style.marginTop = "76px";
+    } else {
+      navbar.classList.remove("sticky");
+      heroMargin.style.marginTop = "0px";
+    }
+  }
 });

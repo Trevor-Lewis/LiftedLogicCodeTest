@@ -250,6 +250,12 @@ p.footer-title-text {
   background-color: white;
 }
 
+#navbar.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .navigation-wrapper {
   width: 100%;
   display: flex;
